@@ -1,4 +1,4 @@
---drops employeeTracker database if already exists
+--drops employeeTracker database if already exists*/
 drop database if exists employeeTracker;
 
 --createse database employeeTracker
@@ -16,6 +16,7 @@ create table employee
  last_name VARCHAR (30) NOT NULL,
  role_id INT not null,
  manager_id INT,
+ PRIMARY KEY(id)
 );
 
 create table role
