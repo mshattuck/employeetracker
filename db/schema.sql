@@ -1,13 +1,9 @@
---drops employeeTracker database if already exists*/
+
 drop database if exists employeeTracker;
 
---createse database employeeTracker
 create database employeeTracker;
 
---select employeeTracker to add tables
 use employeeTracker;
-
---create tables
 
 create table employee
 (
