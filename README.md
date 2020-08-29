@@ -12,7 +12,7 @@
 A command-line application that at a minimum allows the user to add departments, roles, employees, view departments, roles, employees, and update employee roles.
 
 ## Installation:
-Clone the repository, run npm install for mysql, inquirer 
+Clone the repository, run npm install for mysql, inquirer, console.table 
 ## App Usage:
 Start the application from the command line in the application's folder using 'node server.js'. Use the arrow to select the function to use and answer inputs to the prompt questions.
 ## License Details:  
