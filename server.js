@@ -194,7 +194,9 @@ function addRole()
             //variable to set to first item in department array
             let deplist = allDepartments.indexOf(department_id)
 
-            connection.query(`INSERT INTO role (title, salary, department_id) VALUES ('${title}', '${salary}', ${deplist})`, function (err, results) 
+            console.log("deplist: ",deplist);
+
+            connection.query(`INSERT INTO role (title, salary, department_id) VALUES ('${title}', '${salary}', ${deplist}+1)`, function (err, results) 
             {
                 if (err) throw err;
                 console.log("Role added")
